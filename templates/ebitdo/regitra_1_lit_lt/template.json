@@ -1,0 +1,115 @@
+{
+  "Alias": "regitra_1_lit_lt",
+  "Descriptors": {
+    "SupplierName": "Valstybės įmonė \"REGITRA\"",
+    "SupplierTaxId": "LT100789917",
+    "SupplierCode": "110078991",
+    "Currency": "EUR",
+    "UserType": "VAT Invoice",
+    "DocumentSubtypeId": "2"
+  },
+  "Tags": {
+    "KeyWords": [
+      "110078991",
+      "LT100789917"
+    ]
+  },
+  "MatchCondition": {
+    "type": "extractsAll",
+    "value": []
+  },
+  "Constraints": {
+    "Any": [
+      "{InvoiceDate:date:yyyymonthdd:lt-LT}"
+    ],
+    "AnyX": [
+      "{CustomerCode:literal:110078991}",
+      "{CustomerTaxId:literal:LT100789917}"
+    ],
+    "Prefix": [
+      "Pardavėjas {_SupplierName:literal:Valstybėsįmonė„Regitra“}",
+      "PVM mokėtojo kodas {CustomerTaxId:regex:[A-Z]{2}\\d{5,}}",
+      "Kodas {CustomerCode:regex:\\d{9,}}",
+      "Bendra suma {InvoiceTotal:decimal:}",
+      "Iš viso {InvoiceSubtotal:decimal:}",
+      "Data: {InvoiceDate:date:yyyy-mm-dd}",
+      "PVM ( 21 % ) {InvoiceTax:decimal:}",
+      "Serija {SeriesNumber:string:2}"
+    ],
+    "vPrefix": [],
+    "InLine": [
+      "Mokėtojo kodas {CustomerCode:regex:\\d{9,}} PVM kodas {CustomerTaxId:regex:[A-Z]{2}\\d{5,}}"
+    ],
+    "SubLine": [],
+    "EntireLine": [
+      "PVM({VatTariff:decimal:}%) {InvoiceTax:decimal:}",
+      "{:literal:Mokėtojas} {CustomerName:string:4}"
+    ],
+    "UpDown": [
+      "{Series:regex:[A-Z]{4,5}} {InvoiceDate:date:yyyymonthdd:lt-LT}"
+    ]
+  },
+  "Script": "function ManualMatch(fields, tables) return (fields._SupplierName and fields.InvoiceTotal and 100) or 0 end function Finalize(fields, tables, ctx) if tables.LineItems and tables.LineItems.Length > 0 and fields.VatTariff then local items = tables.LineItems local merged = ctx:CreateTable() merged:AppendColumn('Subtotal') merged:AppendColumn('Tax') merged:AppendColumn('Total') merged:AppendColumn('TaxPercent') tables['MergedVatLineItems'] = merged for i = 0, items.Length - 1 do if items[i].Total.Value then local subtotal = items[i].Total.Value or nil local tax = items[i].Total.Value and items[i].Tax.Value and items[i].Total.Value * (fields.VatTariff / 100) or ctx:CreateDecimal('0.00') local total = items[i].Total.Value and tax and items[i].Total.Value + tax or nil local taxPercent = tax and tax == ctx:CreateDecimal('0.00') and ctx:CreateDecimal('0.00') or fields.VatTariff if subtotal and tax and total and taxPercent then merged:AppendRow() merged[-1].Subtotal = subtotal:Round(2) merged[-1].Tax = tax:Round(2) merged[-1].Total = total:Round(2) merged[-1].TaxPercent = taxPercent end end end end --[[ SplitSeriesNumber --]] if fields.SeriesNumber then local delimiters = { 'nr', 'no', '-', ' ' } str = string.lower(fields.SeriesNumber.Text) str = string.gsub(str, '[.:,;<>#]+', '') str = string.gsub(str, '^%s*(.-)%s*$', '%1') local result = nil local separator = nil local series = '' local number = '' for i = 1, #delimiters do if string.match(str, delimiters[i]) then local t = {} for str in string.gmatch(str .. delimiters[i], '(.-)' .. delimiters[i]) do t[#t + 1] = str end result = t separator = delimiters[i] break end end if not result then series, number = string.match(str, '(.-%a)(%d%d%d%d+)') if not series and not number then number = str end else if not string.match(result[1], '%a') then number = str else series = result[1] for i = 2, #result do number = number == '' and number .. result[i] or number .. separator .. result[i] end end end series = series or '' series = string.gsub(series, '%s+', '') series = string.upper(series) number = number or '' number = string.gsub(number, '%s+', '') number = string.upper(number) fields.Series = series fields.InvoiceNumber = number end --[[ SplitSeriesNumber --]] end",
+  "TextTables": [
+    {
+      "Name": "LineItems",
+      "Header": [
+        "Paslaugos pavadinimas",
+        "Įmokos kodas",
+        "Mato",
+        "Kiekis",
+        "Kaina, Eur",
+        "Nuolaida, Eur",
+        "Suma, Eur",
+        "PVM 21%"
+      ],
+      "Cells": [
+        "{Description:text:}",
+        "{LineNo:text:}",
+        "{UOM:text:}",
+        "{Qty:decimal:}",
+        "{UnitPriceExTax:decimal:}",
+        "{Disc:decimal:}",
+        "{Subtotal:decimal:}",
+        "{Tax:decimal:}"
+      ],
+      "Truncate": [
+        "Iš viso:"
+      ],
+      "Hints": [
+        "StrictHeader"
+      ]
+    },
+    {
+      "Name": "LineItems",
+      "Header": [
+        "Įmokos pavadinimas",
+        "Įmokos kodas",
+        "Mato vnt",
+        "Kiekis",
+        "Kaina, Eur",
+        "Suma, Eur",
+        "PVM 21%"
+      ],
+      "Cells": [
+        "{Description:text:}",
+        "{Code:string:}",
+        "{UOM:text:}",
+        "{Qty:decimal:}",
+        "{UnitPriceExTax:decimal:}",
+        "{Total:decimal:}",
+        "{Tax:decimal:}"
+      ],
+      "Hints": [
+        "StrictHeader"
+      ],
+      "Truncate": [
+        "Prašymo Nr.",
+        "Dokumento Nr."
+      ]
+    }
+  ],
+  "Info": {
+    "InstanceId": "193"
+  }
+}
