@@ -3,6 +3,7 @@ function PostExtract(fields, tables, ctx)
         fields.WorkOrderRefNo = fields.Subcontractor.Text .. ' ' .. fields.Trade.Text
     end
 end
+local d
 function Finalize(fields, tables, ctx)
     if tables.LineItems then
         local tableDelimiter
