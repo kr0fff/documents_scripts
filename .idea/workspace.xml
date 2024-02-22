@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f394395-c7e3-40e6-9cab-e954c2a09003" name="Changes" comment="Init commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample0.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample0.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample4.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample4.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample6.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample6.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample7.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample7.lua" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tutorial" />
+        <option value="NewLua" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="openjdk-18" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="28e5B438SRzXxwYjmzBS55JxHVw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "A:/Projects/lua_workspace",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\Projects\lua_workspace\templates\bluesheets\invoices\invoice_spectrum_shipping_usd" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Lua Application.sample4.lua">
+    <configuration name="Main_Tutorial" type="lua.app" factoryName="Lua Application">
+      <module name="lua_workspace" />
+      <option name="program" value="A:\Projects\lua_workspace\src\Main_tutorial.lua" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main_tutorial.lua" type="lua.app" factoryName="Lua Application" temporary="true">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="Main_tutorial.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed (1)" type="lua.app" factoryName="Lua Application" nameIsGenerated="true">
+      <module name="lua_workspace" />
+      <option name="program" value="C:\Program Files\lua-5.4.2\lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="lua.app" factoryName="Lua Application" nameIsGenerated="true">
+      <module name="lua_workspace" />
+      <option name="program" value="A:\Program Files (x86)\lua-5.4.2_Win64_bin\lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="default.lua" type="lua.app" factoryName="Lua Application" temporary="true">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="default.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample4.lua" type="lua.app" factoryName="Lua Application" temporary="true">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="sample4.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="source.lua" type="lua.app" factoryName="Lua Application" temporary="true">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="source.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.lua" type="lua.app" factoryName="Lua Application" temporary="true">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="test.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Lua Application.Main_Tutorial" />
+      <item itemvalue="Lua Application.Unnamed (1)" />
+      <item itemvalue="Lua Application.Unnamed" />
+      <item itemvalue="Lua Application.sample4.lua" />
+      <item itemvalue="Lua Application.Main_tutorial.lua" />
+      <item itemvalue="Lua Application.default.lua" />
+      <item itemvalue="Lua Application.source.lua" />
+      <item itemvalue="Lua Application.test.lua" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Lua Application.sample4.lua" />
+        <item itemvalue="Lua Application.test.lua" />
+        <item itemvalue="Lua Application.default.lua" />
+        <item itemvalue="Lua Application.source.lua" />
+        <item itemvalue="Lua Application.Main_tutorial.lua" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f394395-c7e3-40e6-9cab-e954c2a09003" name="Changes" comment="" />
+      <created>1651564074260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651564074260</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1708516952574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708516952574</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1708524006544</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708524006544</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1708524115643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708524115643</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1708524979016</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708524979016</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
