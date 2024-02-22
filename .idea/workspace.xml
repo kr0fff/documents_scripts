@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f394395-c7e3-40e6-9cab-e954c2a09003" name="Changes" comment="Init commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample3.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample3.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample0.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample0.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +73,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\Projects\lua_workspace\.idea" />
       <recent name="A:\Projects\lua_workspace\templates\bluesheets\invoices\invoice_spectrum_shipping_usd" />
     </key>
   </component>

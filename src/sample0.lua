@@ -78,3 +78,4 @@ function PostExtract(fields, tables, ctx)
         items[-1].Total = total
     end
 end
+local a
