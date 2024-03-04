@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f394395-c7e3-40e6-9cab-e954c2a09003" name="Changes" comment="Init commit">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Current.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample0.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample1.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample3.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample4.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample5.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample6.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample7.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample8.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_02_2024_16_19_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_02_2024_16_19__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample0.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample0.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,38 +70,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "A:/Projects/lua_workspace",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;A:/Projects/lua_workspace&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Lua&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="A:\Projects\lua_workspace\.idea" />
       <recent name="A:\Projects\lua_workspace\templates\bluesheets\invoices\invoice_spectrum_shipping_usd" />
     </key>
   </component>
-  <component name="RunManager" selected="Lua Application.sample4.lua">
+  <component name="RunManager" selected="Lua Application.sample3.lua">
     <configuration name="Main_Tutorial" type="lua.app" factoryName="Lua Application">
       <module name="lua_workspace" />
       <option name="program" value="A:\Projects\lua_workspace\src\Main_tutorial.lua" />
       <option name="file" value="" />
-      <option name="workingDir" value="$PROJECT_DIR$/src" />
-      <option name="debuggerType" value="2" />
-      <option name="params" value="" />
-      <option name="charset" value="UTF-8" />
-      <option name="showConsole" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Main_tutorial.lua" type="lua.app" factoryName="Lua Application" temporary="true">
-      <option name="program" value="lua.exe" />
-      <option name="file" value="Main_tutorial.lua" />
       <option name="workingDir" value="$PROJECT_DIR$/src" />
       <option name="debuggerType" value="2" />
       <option name="params" value="" />
@@ -124,6 +124,16 @@
     <configuration name="default.lua" type="lua.app" factoryName="Lua Application" temporary="true">
       <option name="program" value="lua.exe" />
       <option name="file" value="default.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample3.lua" type="lua.app" factoryName="Lua Application" temporary="true">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="sample3.lua" />
       <option name="workingDir" value="$PROJECT_DIR$/src" />
       <option name="debuggerType" value="2" />
       <option name="params" value="" />
@@ -165,19 +175,19 @@
       <item itemvalue="Lua Application.Main_Tutorial" />
       <item itemvalue="Lua Application.Unnamed (1)" />
       <item itemvalue="Lua Application.Unnamed" />
+      <item itemvalue="Lua Application.sample3.lua" />
       <item itemvalue="Lua Application.sample4.lua" />
-      <item itemvalue="Lua Application.Main_tutorial.lua" />
       <item itemvalue="Lua Application.default.lua" />
       <item itemvalue="Lua Application.source.lua" />
       <item itemvalue="Lua Application.test.lua" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Lua Application.sample3.lua" />
         <item itemvalue="Lua Application.sample4.lua" />
         <item itemvalue="Lua Application.test.lua" />
         <item itemvalue="Lua Application.default.lua" />
         <item itemvalue="Lua Application.source.lua" />
-        <item itemvalue="Lua Application.Main_tutorial.lua" />
       </list>
     </recent_temporary>
   </component>
