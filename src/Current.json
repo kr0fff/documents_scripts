@@ -1,0 +1,384 @@
+{
+  "data": {
+    "date": {
+      "text": "31.10.2023",
+      "type": "date",
+      "value": "1698710400000",
+      "confidence": "0.99",
+      "annotations": [
+        "638448925018623336"
+      ]
+    },
+    "type": "invoice",
+    "pages": [
+      {
+        "count": 1,
+        "offset": 0,
+        "fileIdx": 0
+      }
+    ],
+    "total": {
+      "text": "52.49",
+      "type": "decimal",
+      "value": "52.49",
+      "confidence": "0.99",
+      "annotations": [
+        "638448925018623947"
+      ]
+    },
+    "number": {
+      "type": "string",
+      "value": "LTU/23/893/1/99"
+    },
+    "version": "1.2",
+    "subtotal": {
+      "text": "47.95",
+      "type": "decimal",
+      "value": "47.95",
+      "confidence": "0.99",
+      "annotations": [
+        "638448925018623864"
+      ]
+    },
+    "lineItems": {
+      "rows": [
+        {
+          "qty": {
+            "text": "1.00",
+            "type": "decimal",
+            "value": "1.00"
+          },
+          "tax": {
+            "text": "4.14",
+            "type": "decimal",
+            "value": "4.14",
+            "confidence": "0.97",
+            "annotations": [
+              "638448925018623756"
+            ]
+          },
+          "date": {
+            "text": "17.10.2023",
+            "type": "date",
+            "value": "1697500800000",
+            "confidence": "0.99",
+            "annotations": [
+              "638448925018623733"
+            ]
+          },
+          "total": {
+            "text": "50.20",
+            "type": "decimal",
+            "value": "50.20",
+            "confidence": "0.99",
+            "annotations": [
+              "638448925018623744"
+            ]
+          },
+          "lineNo": {
+            "type": "string",
+            "value": "652e25ba7e9e5f0e48cf40ea",
+            "annotations": [
+              "638448925018623780"
+            ]
+          },
+          "subtotal": {
+            "text": "46.06",
+            "type": "decimal",
+            "value": "46.06"
+          },
+          "taxPercent": {
+            "text": "9",
+            "type": "decimal",
+            "value": "9",
+            "confidence": "0.91",
+            "annotations": [
+              "638448925018623731"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "value": "paslaugos",
+            "annotations": [
+              "638448925018623770"
+            ]
+          },
+          "unitPriceExTax": {
+            "text": "46.06",
+            "type": "decimal",
+            "value": "46.06",
+            "confidence": "0.99",
+            "annotations": [
+              "638448925018623750"
+            ]
+          },
+          "unitPriceIncTax": {
+            "text": "50.20",
+            "type": "decimal",
+            "value": "50.20"
+          }
+        },
+        {
+          "qty": {
+            "text": "1.00",
+            "type": "decimal",
+            "value": "1.00"
+          },
+          "tax": {
+            "text": "0.40",
+            "type": "decimal",
+            "value": "0.40",
+            "confidence": "0.94",
+            "annotations": [
+              "638448925018623850"
+            ]
+          },
+          "date": {
+            "text": "17.10.2023",
+            "type": "date",
+            "value": "1697500800000",
+            "confidence": "0.99",
+            "annotations": [
+              "638448925018623826"
+            ]
+          },
+          "total": {
+            "text": "2.29",
+            "type": "decimal",
+            "value": "2.29",
+            "confidence": "0.99",
+            "annotations": [
+              "638448925018623805"
+            ]
+          },
+          "lineNo": {
+            "type": "string",
+            "value": null
+          },
+          "subtotal": {
+            "text": "1.89",
+            "type": "decimal",
+            "value": "1.89"
+          },
+          "taxPercent": {
+            "text": "21",
+            "type": "decimal",
+            "value": "21",
+            "confidence": "0.95",
+            "annotations": [
+              "638448925018623847"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "value": "paslaugos",
+            "annotations": [
+              "638448925018623837"
+            ]
+          },
+          "unitPriceExTax": {
+            "text": "1.89",
+            "type": "decimal",
+            "value": "1.89",
+            "confidence": "0.99",
+            "annotations": [
+              "638448925018623821"
+            ]
+          },
+          "unitPriceIncTax": {
+            "text": "2.29",
+            "type": "decimal",
+            "value": "2.29"
+          }
+        }
+      ],
+      "type": "flatTable",
+      "header": [
+        {
+          "id": "lineNo",
+          "name": "PIRKINIO ID"
+        },
+        {
+          "id": "date",
+          "name": "DATA"
+        },
+        {
+          "id": "subtotal",
+          "name": "SUMA"
+        },
+        {
+          "id": "description",
+          "name": " "
+        },
+        {
+          "id": "unitPriceExTax",
+          "name": "SUMA BE PVM"
+        },
+        {
+          "id": "taxPercent",
+          "name": "PVM %"
+        },
+        {
+          "id": "tax",
+          "name": "PVM"
+        },
+        {
+          "id": "total",
+          "name": "TARPINĖ SUMA"
+        }
+      ]
+    },
+    "currencyCode": {
+      "type": "string",
+      "value": "EUR"
+    },
+    "customerCode": {
+      "type": "string",
+      "value": "303589891",
+      "annotations": [
+        "638448925018623579"
+      ]
+    },
+    "customerName": {
+      "value": "UAB \"Pandos\""
+    },
+    "supplierCode": {
+      "type": "string",
+      "value": "304429893",
+      "annotations": [
+        "638448925018623569"
+      ]
+    },
+    "supplierName": {
+      "value": "UAB \"Dodo LT\""
+    },
+    "customerTaxId": {
+      "type": "string",
+      "value": "LT100009206014",
+      "annotations": [
+        "638448925018623589"
+      ]
+    },
+    "supplierTaxId": {
+      "type": "string",
+      "value": "LT100010581218",
+      "annotations": [
+        "638448925018623604"
+      ]
+    },
+    "isGeneralLayout": {
+      "type": "string",
+      "value": "True"
+    },
+    "documentSubtypeId": {
+      "type": "string",
+      "value": "2"
+    },
+    "mergedVatLineItems": {
+      "rows": [
+        {
+          "tax": {
+            "text": "4.14",
+            "type": "decimal",
+            "value": "4.14",
+            "confidence": "1.00"
+          },
+          "total": {
+            "text": "50.20",
+            "type": "decimal",
+            "value": "50.20",
+            "confidence": "1.00"
+          },
+          "subtotal": {
+            "text": "46.06",
+            "type": "decimal",
+            "value": "46.06",
+            "confidence": "1.00"
+          },
+          "taxPercent": {
+            "type": "string",
+            "value": "9",
+            "annotations": [
+              "638448925018623896"
+            ]
+          }
+        },
+        {
+          "tax": {
+            "text": "0.40",
+            "type": "decimal",
+            "value": "0.40",
+            "confidence": "1.00"
+          },
+          "total": {
+            "text": "2.29",
+            "type": "decimal",
+            "value": "2.29",
+            "confidence": "1.00"
+          },
+          "subtotal": {
+            "text": "1.89",
+            "type": "decimal",
+            "value": "1.89",
+            "confidence": "1.00"
+          },
+          "taxPercent": {
+            "type": "string",
+            "value": "21",
+            "annotations": [
+              "638448925018623906"
+            ]
+          }
+        }
+      ],
+      "type": "flatTable",
+      "header": [
+        {
+          "id": "subtotal",
+          "name": "Subtotal"
+        },
+        {
+          "id": "tax",
+          "name": "Tax"
+        },
+        {
+          "id": "total",
+          "name": "Total"
+        },
+        {
+          "id": "taxPercent",
+          "name": "TaxPercent"
+        }
+      ]
+    },
+    "payer": null
+  },
+  "stats": {
+    "lang": [
+      {
+        "code": "eng",
+        "wordCount": 130,
+        "wordRatio": 1
+      }
+    ],
+    "confidence": {
+      "ocr": "0.97",
+      "data": "0.98"
+    }
+  },
+  "template": {
+    "alias": "general_receipt_9_lit_lt"
+  },
+  "exportPdf": {
+    "url": "https://ebitdo.s3.eu-central-1.amazonaws.com/ebitdo/prod/users/37/document/2024-03-01T11_10_51.114Z_2024-02-27T14_00_33.726Z_63211_LTU_23_947_3_1684_76baa4516b0245b4800cbdd0a495bd47_2023-10-01_2023-11-01-16_splitted_splitted.pdf"
+  },
+  "exportTxt": {
+    "url": "https://ebitdo.s3.eu-central-1.amazonaws.com/ebitdo/prod/users/37/document/2024-03-01T11_10_51.114Z_2024-02-27T14_00_33.726Z_63211_LTU_23_947_3_1684_76baa4516b0245b4800cbdd0a495bd47_2023-10-01_2023-11-01-16_splitted_recognizedtext.txt"
+  },
+  "exportTextPdf": {
+    "url": "https://ebitdo.s3.eu-central-1.amazonaws.com/ebitdo/prod/users/37/document/2024-03-01T11_10_51.114Z_2024-02-27T14_00_33.726Z_63211_LTU_23_947_3_1684_76baa4516b0245b4800cbdd0a495bd47_2023-10-01_2023-11-01-16_splitted_recognized.pdf"
+  },
+  "exportTextAnnotation": {
+    "url": "https://ebitdo.s3.eu-central-1.amazonaws.com/ebitdo/prod/users/37/document/2024-03-01T11_10_51.114Z_2024-02-27T14_00_33.726Z_63211_LTU_23_947_3_1684_76baa4516b0245b4800cbdd0a495bd47_2023-10-01_2023-11-01-16_splitted_textannotation.json"
+  }
+}

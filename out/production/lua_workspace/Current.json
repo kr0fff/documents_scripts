@@ -1,0 +1,1654 @@
+{
+  "data": {
+    "date": {
+      "text": "2023-09-30",
+      "type": "date",
+      "value": "1696032000000",
+      "confidence": "1.00",
+      "annotations": [
+        "638345263204030507"
+      ]
+    },
+    "type": "invoice",
+    "pages": [
+      {
+        "count": 3,
+        "offset": 0,
+        "fileIdx": 0
+      }
+    ],
+    "number": {
+      "type": "string",
+      "value": "233908811"
+    },
+    "series": {
+      "type": "string",
+      "value": "SAP"
+    },
+    "dueDate": {
+      "text": "2023-10-31",
+      "type": "date",
+      "value": "1698710400000",
+      "confidence": "1.00",
+      "annotations": [
+        "638345263204030512"
+      ]
+    },
+    "version": "1.2",
+    "userType": {
+      "type": "string",
+      "value": "VAT Invoice"
+    },
+    "lineItems": {
+      "rows": [
+        {
+          "sms": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032955"
+            ]
+          },
+          "tax": {
+            "text": "1.72",
+            "type": "decimal",
+            "value": "1.72",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032958"
+            ]
+          },
+          "plan": {
+            "type": "string",
+            "value": "V Start",
+            "annotations": [
+              "638345263203032963",
+              "638345263203032959"
+            ]
+          },
+          "calls": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032965"
+            ]
+          },
+          "extra": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032952"
+            ]
+          },
+          "total": {
+            "text": "9.92",
+            "type": "decimal",
+            "value": "9.92",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032956"
+            ]
+          },
+          "lineNo": {
+            "type": "string",
+            "value": "62073999",
+            "annotations": [
+              "638345263203032953"
+            ]
+          },
+          "minTax": {
+            "text": "8.20",
+            "type": "decimal",
+            "value": "8.20",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032964"
+            ]
+          },
+          "roaming": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032951"
+            ]
+          },
+          "discount": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032962"
+            ]
+          },
+          "extraTax": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032961"
+            ]
+          },
+          "internet": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032950"
+            ]
+          },
+          "roaming1": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032957"
+            ]
+          },
+          "subtotal": {
+            "text": "8.20",
+            "type": "decimal",
+            "value": "8.20",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032954"
+            ]
+          },
+          "userName": {
+            "type": "string",
+            "value": null
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "text": "21",
+            "type": "decimal",
+            "value": "21",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032960"
+            ]
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        },
+        {
+          "sms": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032977"
+            ]
+          },
+          "tax": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032971"
+            ]
+          },
+          "plan": {
+            "type": "string",
+            "value": null
+          },
+          "calls": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032979"
+            ]
+          },
+          "extra": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032975"
+            ]
+          },
+          "total": {
+            "text": "5.90",
+            "type": "decimal",
+            "value": "5.90",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032972"
+            ]
+          },
+          "lineNo": {
+            "type": "string",
+            "value": null
+          },
+          "minTax": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032967"
+            ]
+          },
+          "roaming": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032970"
+            ]
+          },
+          "discount": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032973"
+            ]
+          },
+          "extraTax": {
+            "text": "5.90",
+            "type": "decimal",
+            "value": "5.90",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032978"
+            ]
+          },
+          "internet": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032968"
+            ]
+          },
+          "roaming1": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032974"
+            ]
+          },
+          "subtotal": {
+            "text": "5.90",
+            "type": "decimal",
+            "value": "5.90",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032966"
+            ]
+          },
+          "userName": {
+            "type": "string",
+            "value": null
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00"
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        },
+        {
+          "sms": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032990"
+            ]
+          },
+          "tax": {
+            "text": "1.72",
+            "type": "decimal",
+            "value": "1.72",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032991"
+            ]
+          },
+          "plan": {
+            "type": "string",
+            "value": null
+          },
+          "calls": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032993"
+            ]
+          },
+          "extra": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032985"
+            ]
+          },
+          "total": {
+            "text": "15.82",
+            "type": "decimal",
+            "value": "15.82",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032988"
+            ]
+          },
+          "lineNo": {
+            "type": "string",
+            "value": null
+          },
+          "minTax": {
+            "text": "8.20",
+            "type": "decimal",
+            "value": "8.20",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032980"
+            ]
+          },
+          "roaming": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032982"
+            ]
+          },
+          "discount": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032984"
+            ]
+          },
+          "extraTax": {
+            "text": "5.90",
+            "type": "decimal",
+            "value": "5.90",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032986"
+            ]
+          },
+          "internet": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032989"
+            ]
+          },
+          "roaming1": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032983"
+            ]
+          },
+          "subtotal": {
+            "text": "14.10",
+            "type": "decimal",
+            "value": "14.10",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032981"
+            ]
+          },
+          "userName": {
+            "type": "string",
+            "value": null
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "text": "12.00",
+            "type": "decimal",
+            "value": "12.00"
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        },
+        {
+          "sms": {
+            "text": "0.50",
+            "type": "decimal",
+            "value": "0.50",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033004"
+            ]
+          },
+          "tax": {
+            "text": "4.05",
+            "type": "decimal",
+            "value": "4.05",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032995"
+            ]
+          },
+          "plan": {
+            "type": "string",
+            "value": "Verslas",
+            "annotations": [
+              "638345263203033008"
+            ]
+          },
+          "calls": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033000"
+            ]
+          },
+          "extra": {
+            "text": "5.61",
+            "type": "decimal",
+            "value": "5.61",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033006"
+            ]
+          },
+          "total": {
+            "text": "23.35",
+            "type": "decimal",
+            "value": "23.35",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033005"
+            ]
+          },
+          "lineNo": {
+            "type": "string",
+            "value": "68689541",
+            "annotations": [
+              "638345263203033009"
+            ]
+          },
+          "minTax": {
+            "text": "9.90",
+            "type": "decimal",
+            "value": "9.90",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033003"
+            ]
+          },
+          "roaming": {
+            "text": "2.63",
+            "type": "decimal",
+            "value": "2.63",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033001"
+            ]
+          },
+          "discount": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033007"
+            ]
+          },
+          "extraTax": {
+            "text": "0.66",
+            "type": "decimal",
+            "value": "0.66",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032998"
+            ]
+          },
+          "internet": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033002"
+            ]
+          },
+          "roaming1": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032994"
+            ]
+          },
+          "subtotal": {
+            "text": "19.30",
+            "type": "decimal",
+            "value": "19.30",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032999"
+            ]
+          },
+          "userName": {
+            "type": "string",
+            "value": "Mykolas Markauskas",
+            "annotations": [
+              "638345263203032996",
+              "638345263203033010"
+            ]
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "text": "21",
+            "type": "decimal",
+            "value": "21",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203032997"
+            ]
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        },
+        {
+          "sms": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033013"
+            ]
+          },
+          "tax": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033017"
+            ]
+          },
+          "plan": {
+            "type": "string",
+            "value": null
+          },
+          "calls": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033016"
+            ]
+          },
+          "extra": {
+            "text": "9.90",
+            "type": "decimal",
+            "value": "9.90",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033012"
+            ]
+          },
+          "total": {
+            "text": "9.90",
+            "type": "decimal",
+            "value": "9.90",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033023"
+            ]
+          },
+          "lineNo": {
+            "type": "string",
+            "value": null
+          },
+          "minTax": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033021"
+            ]
+          },
+          "roaming": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033018"
+            ]
+          },
+          "discount": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033022"
+            ]
+          },
+          "extraTax": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033024"
+            ]
+          },
+          "internet": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033020"
+            ]
+          },
+          "roaming1": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033011"
+            ]
+          },
+          "subtotal": {
+            "text": "9.90",
+            "type": "decimal",
+            "value": "9.90",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033019"
+            ]
+          },
+          "userName": {
+            "type": "string",
+            "value": null
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00"
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        },
+        {
+          "sms": {
+            "text": "0.50",
+            "type": "decimal",
+            "value": "0.50",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033033"
+            ]
+          },
+          "tax": {
+            "text": "4.05",
+            "type": "decimal",
+            "value": "4.05",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033025"
+            ]
+          },
+          "plan": {
+            "type": "string",
+            "value": null
+          },
+          "calls": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033034"
+            ]
+          },
+          "extra": {
+            "text": "15.51",
+            "type": "decimal",
+            "value": "15.51",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033028"
+            ]
+          },
+          "total": {
+            "text": "33.25",
+            "type": "decimal",
+            "value": "33.25",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033038"
+            ]
+          },
+          "lineNo": {
+            "type": "string",
+            "value": null
+          },
+          "minTax": {
+            "text": "9.90",
+            "type": "decimal",
+            "value": "9.90",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033030"
+            ]
+          },
+          "roaming": {
+            "text": "2.63",
+            "type": "decimal",
+            "value": "2.63",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033035"
+            ]
+          },
+          "discount": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033036"
+            ]
+          },
+          "extraTax": {
+            "text": "0.66",
+            "type": "decimal",
+            "value": "0.66",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033029"
+            ]
+          },
+          "internet": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033037"
+            ]
+          },
+          "roaming1": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033032"
+            ]
+          },
+          "subtotal": {
+            "text": "29.20",
+            "type": "decimal",
+            "value": "29.20",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033031"
+            ]
+          },
+          "userName": {
+            "type": "string",
+            "value": null
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "text": "14.00",
+            "type": "decimal",
+            "value": "14.00"
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        },
+        {
+          "sms": {
+            "text": "0.50",
+            "type": "decimal",
+            "value": "0.50",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033052"
+            ]
+          },
+          "tax": {
+            "text": "5.77",
+            "type": "decimal",
+            "value": "5.77",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033055"
+            ]
+          },
+          "plan": {
+            "type": "string",
+            "value": "už GSM ryšio",
+            "annotations": [
+              "638345263203033056",
+              "638345263203033048",
+              "638345263203033045"
+            ]
+          },
+          "calls": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033043"
+            ]
+          },
+          "extra": {
+            "text": "15.51",
+            "type": "decimal",
+            "value": "15.51",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033046"
+            ]
+          },
+          "total": {
+            "text": "49.07",
+            "type": "decimal",
+            "value": "49.07",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033042"
+            ]
+          },
+          "lineNo": {
+            "type": "string",
+            "value": null
+          },
+          "minTax": {
+            "text": "18.10",
+            "type": "decimal",
+            "value": "18.10",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033050"
+            ]
+          },
+          "roaming": {
+            "text": "2.63",
+            "type": "decimal",
+            "value": "2.63",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033039"
+            ]
+          },
+          "discount": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033047"
+            ]
+          },
+          "extraTax": {
+            "text": "6.56",
+            "type": "decimal",
+            "value": "6.56",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033049"
+            ]
+          },
+          "internet": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033054"
+            ]
+          },
+          "roaming1": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033051"
+            ]
+          },
+          "subtotal": {
+            "text": "43.30",
+            "type": "decimal",
+            "value": "43.30",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033041"
+            ]
+          },
+          "userName": {
+            "type": "string",
+            "value": "Iš viso",
+            "annotations": [
+              "638345263203033040",
+              "638345263203033044"
+            ]
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "text": "13.00",
+            "type": "decimal",
+            "value": "13.00"
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        },
+        {
+          "sms": {
+            "type": "string",
+            "value": null
+          },
+          "tax": {
+            "type": "string",
+            "value": null
+          },
+          "plan": {
+            "type": "string",
+            "value": null
+          },
+          "calls": {
+            "type": "string",
+            "value": null
+          },
+          "extra": {
+            "type": "string",
+            "value": null
+          },
+          "total": {
+            "text": "49.07",
+            "type": "decimal",
+            "value": "49.07",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033057"
+            ]
+          },
+          "lineNo": {
+            "type": "string",
+            "value": null
+          },
+          "minTax": {
+            "type": "string",
+            "value": null
+          },
+          "roaming": {
+            "type": "string",
+            "value": null
+          },
+          "discount": {
+            "type": "string",
+            "value": null
+          },
+          "extraTax": {
+            "type": "string",
+            "value": null
+          },
+          "internet": {
+            "type": "string",
+            "value": null
+          },
+          "roaming1": {
+            "type": "string",
+            "value": null
+          },
+          "subtotal": {
+            "type": "string",
+            "value": null
+          },
+          "userName": {
+            "type": "string",
+            "value": null
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "type": "string",
+            "value": null
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        }
+      ],
+      "type": "flatTable",
+      "header": [
+        {
+          "id": "lineNo",
+          "name": "Abonento Nr"
+        },
+        {
+          "id": "userName",
+          "name": "Vartotojo vardas"
+        },
+        {
+          "id": "plan",
+          "name": "Mokėjimo planas"
+        },
+        {
+          "id": "taxPercent",
+          "name": "Taikomas PVM% "
+        },
+        {
+          "id": "minTax",
+          "name": "Minimalūs mokesčiai"
+        },
+        {
+          "id": "extraTax",
+          "name": "Kiti mokesčiai"
+        },
+        {
+          "id": "discount",
+          "name": "Nuolaidos ir kompensacijos"
+        },
+        {
+          "id": "calls",
+          "name": "Skambučiai"
+        },
+        {
+          "id": "sms",
+          "name": "Vietinis ryšys Žinutės"
+        },
+        {
+          "id": "internet",
+          "name": "Mobilusis internetas"
+        },
+        {
+          "id": "roaming",
+          "name": "Skambučiai žinutės į užsienį"
+        },
+        {
+          "id": "roaming1",
+          "name": "Ryšio paslaugos užsienyje"
+        },
+        {
+          "id": "extra",
+          "name": "Papildomos paslaugos"
+        },
+        {
+          "id": "subtotal",
+          "name": "Suma be PVM"
+        },
+        {
+          "id": "tax",
+          "name": "PVM"
+        },
+        {
+          "id": "total",
+          "name": "Suma su PVM"
+        },
+        {
+          "id": "description",
+          "name": "Description"
+        },
+        {
+          "id": "uom",
+          "name": "UOM"
+        },
+        {
+          "id": "qty",
+          "name": "Quantity"
+        },
+        {
+          "id": "unitPriceExTax",
+          "name": "Unit Price"
+        },
+        {
+          "id": "unitPriceIncTax",
+          "name": "Unit Price with VAT"
+        },
+        {
+          "id": "vatRateExport",
+          "name": "B1 VAT"
+        },
+        {
+          "id": "classificationExport",
+          "name": "VAT class."
+        },
+        {
+          "id": "itemExport",
+          "name": "Item"
+        },
+        {
+          "id": "costCenter",
+          "name": "Cost center"
+        },
+        {
+          "id": "warehouseExport",
+          "name": "Warehouse"
+        },
+        {
+          "id": "operationExport",
+          "name": "Operation type"
+        },
+        {
+          "id": "advancedEmployee",
+          "name": "Advanced employee"
+        }
+      ]
+    },
+    "currencyCode": {
+      "type": "string",
+      "value": "EUR"
+    },
+    "customerCode": {
+      "type": "string",
+      "value": "304811761",
+      "annotations": [
+        "638345263204030516"
+      ]
+    },
+    "customerName": {
+      "type": "string",
+      "value": "UAB \"Šeši islandai\"",
+      "annotations": [
+        "638345263204030488",
+        "638345263204030487",
+        "638345263204030486"
+      ]
+    },
+    "seriesNumber": {
+      "type": "string",
+      "value": "SAP Nr. 233908811",
+      "annotations": [
+        "638345263203032836",
+        "638345263203032837",
+        "638345263203032834"
+      ]
+    },
+    "supplierCode": {
+      "type": "string",
+      "value": "121215434"
+    },
+    "supplierName": {
+      "type": "string",
+      "value": "Telia Lietuva AB"
+    },
+    "customerTaxId": {
+      "type": "string",
+      "value": "LT100011939914",
+      "annotations": [
+        "638345263204030521"
+      ]
+    },
+    "operationDate": null,
+    "supplierTaxId": {
+      "type": "string",
+      "value": "LT212154314"
+    },
+    "documentSubtypeId": {
+      "type": "string",
+      "value": "2"
+    },
+    "mergedVatLineItems": {
+      "rows": [
+        {
+          "tax": {
+            "text": "0",
+            "type": "decimal",
+            "value": "0",
+            "confidence": "1.00"
+          },
+          "total": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00"
+          },
+          "subtotal": {
+            "text": "0.00",
+            "type": "decimal",
+            "value": "0.00",
+            "confidence": "1.00"
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "text": "0",
+            "type": "decimal",
+            "value": "0",
+            "confidence": "1.00"
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        },
+        {
+          "tax": {
+            "text": "5.77",
+            "type": "decimal",
+            "value": "5.77",
+            "confidence": "1.00"
+          },
+          "total": {
+            "text": "33.27",
+            "type": "decimal",
+            "value": "33.27",
+            "confidence": "1.00"
+          },
+          "subtotal": {
+            "text": "27.50",
+            "type": "decimal",
+            "value": "27.50",
+            "confidence": "1.00"
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "text": "21",
+            "type": "decimal",
+            "value": "21",
+            "confidence": "1.00",
+            "annotations": [
+              "638345263203033092"
+            ]
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        },
+        {
+          "tax": {
+            "text": "0",
+            "type": "decimal",
+            "value": "0",
+            "confidence": "1.00"
+          },
+          "total": {
+            "text": "15.80",
+            "type": "decimal",
+            "value": "15.80",
+            "confidence": "1.00"
+          },
+          "subtotal": {
+            "text": "15.80",
+            "type": "decimal",
+            "value": "15.80",
+            "confidence": "1.00"
+          },
+          "costCenter": {
+            "type": "string"
+          },
+          "itemExport": {
+            "type": "string"
+          },
+          "taxPercent": {
+            "text": "0",
+            "type": "decimal",
+            "value": "0",
+            "confidence": "1.00"
+          },
+          "vatRateExport": {
+            "type": "string"
+          },
+          "operationExport": {
+            "type": "string",
+            "value": null
+          },
+          "warehouseExport": {
+            "type": "string",
+            "value": 274
+          },
+          "advancedEmployee": {
+            "type": "string",
+            "value": null
+          },
+          "classificationExport": {
+            "type": "string",
+            "value": null
+          }
+        }
+      ],
+      "type": "flatTable",
+      "header": [
+        {
+          "id": "subtotal",
+          "name": "Subtotal"
+        },
+        {
+          "id": "tax",
+          "name": "Tax"
+        },
+        {
+          "id": "total",
+          "name": "Total"
+        },
+        {
+          "id": "taxPercent",
+          "name": "TaxPercent"
+        },
+        {
+          "id": "vatRateExport",
+          "name": "B1 VAT"
+        },
+        {
+          "id": "classificationExport",
+          "name": "VAT class."
+        },
+        {
+          "id": "itemExport",
+          "name": "Item"
+        },
+        {
+          "id": "costCenter",
+          "name": "Cost center"
+        },
+        {
+          "id": "warehouseExport",
+          "name": "Warehouse"
+        },
+        {
+          "id": "operationExport",
+          "name": "Operation type"
+        },
+        {
+          "id": "advancedEmployee",
+          "name": "Advanced employee"
+        }
+      ]
+    },
+    "headerExportOptions": {
+      "employee": 6646,
+      "warehouse": 274
+    },
+    "payer": null
+  },
+  "stats": {
+    "lang": [
+      {
+        "code": "eng",
+        "wordCount": 546,
+        "wordRatio": 1
+      },
+      {
+        "code": "lit",
+        "wordCount": 2,
+        "wordRatio": 0
+      }
+    ],
+    "confidence": {
+      "ocr": "0.99",
+      "data": "1.00"
+    }
+  },
+  "template": {
+    "alias": "telia_4_lit_lt"
+  },
+  "exportPdf": {
+    "url": "https://ebitdo.s3.eu-central-1.amazonaws.com/ebitdo/prod/users/55/document/2023-11-02T12_51_40.307Z_2023-10-04T07_00_30.833Z_saskaita_30021518_20230930_original_splitted.pdf"
+  },
+  "exportTxt": {
+    "url": "https://ebitdo.s3.eu-central-1.amazonaws.com/ebitdo/prod/users/55/document/2023-11-02T12_51_40.307Z_2023-10-04T07_00_30.833Z_saskaita_30021518_20230930_original_recognizedtext.txt"
+  },
+  "exportTextPdf": {
+    "url": "https://ebitdo.s3.eu-central-1.amazonaws.com/ebitdo/prod/users/55/document/2023-11-02T12_51_40.307Z_2023-10-04T07_00_30.833Z_saskaita_30021518_20230930_original_recognized.pdf"
+  },
+  "exportTextAnnotation": {
+    "url": "https://ebitdo.s3.eu-central-1.amazonaws.com/ebitdo/prod/users/55/document/2023-11-02T12_51_40.307Z_2023-10-04T07_00_30.833Z_saskaita_30021518_20230930_original_textannotation.json"
+  }
+}
