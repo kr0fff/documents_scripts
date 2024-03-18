@@ -1,0 +1,68 @@
+{
+  "Alias": "certificateofanalysis_nipponpaintmaterials",
+  "Descriptors": {
+    "SupplierName": "",
+    "DocumentType": "certificate_of_analysis"
+  },
+  "Tags": {
+    "KeyWords": [
+      "06-6450-4022",
+      "NIPPON PAINT"
+    ]
+  },
+  "MatchCondition": {
+    "type": "extractsAll",
+    "value": [
+      "_Match0",
+      "_Match1"
+    ]
+  },
+  "Constraints": {
+    "Any": [
+      "{_Match1:literal:製品検査表作成依頼書}"
+    ],
+    "Prefix": [
+      "{:literal:伝票番号} {_Match0:regex:\\d{4,}}"
+    ],
+    "vPrefix": [],
+    "InLine": [],
+    "SubLine": [],
+    "EntireLine": [],
+    "UpDown": []
+  },
+  "Script": "function Finalize(fields, tables, ctx) if tables.LineItems then local items = tables.LineItems local lotsCounter = 1 for i = 0, items.Length - 1 do if items[i].Description.Value and items[i].ProductName.Value then local itemFound = items[i].Description.Text:match('^%d%d%d%d+%s+(.+)$') local isContainDate = items[i].ProductName.Text:match('%d%d%.%d%d.%d+') if not fields['ItemName'] then fields['ItemName'] = itemFound and itemFound:gsub('^[%|%s]+', '') or items[i].Description.Text end if not isContainDate then for code in items[i].ProductName.Text:gmatch('[A-Z]*%d+') do fields['LotNo' .. lotsCounter] = code lotsCounter = lotsCounter + 1 end else fields['LotNo' .. lotsCounter] = items[i].ProductName.Text lotsCounter = lotsCounter + 1 end end end tables.LineItems = nil end end",
+  "TextTables": [
+    {
+      "Name": "LineItems",
+      "Header": [
+        "No.",
+        "注文 No. 品名",
+        "ロット No. 仕入 先 品目 コード",
+        "数量",
+        "CASE No.",
+        "納入 日"
+      ],
+      "Cells": [
+        "{ItemNo:regex:\\d+}",
+        "{Description:text:}",
+        "{ProductName:text:}",
+        "{Qty:text:}",
+        "{Case:text:}",
+        "{Date:date:yyyy/mm/dd}"
+      ],
+      "Hints": [
+        "KeepLineBreaks"
+      ],
+      "GridLines": [
+        "All"
+      ],
+      "Truncate": [
+        "備考",
+        "ご依頼のCOA"
+      ]
+    }
+  ],
+  "Info": {
+    "InstanceId": "171"
+  }
+}
