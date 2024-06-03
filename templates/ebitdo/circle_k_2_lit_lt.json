@@ -1,0 +1,103 @@
+{
+  "Alias": "circle_k_2_lit_lt",
+  "Descriptors": {
+    "SupplierName": "Circle K Lietuva UAB",
+    "SupplierTaxId": "LT114549113",
+    "SupplierCode": "211454910",
+    "Currency": "EUR",
+    "UserType": "",
+    "DocumentSubtypeId": "2"
+  },
+  "Tags": {
+    "KeyWords": [
+      "Circle K Lietuva UAB",
+      "862332517",
+      "211454910",
+      "LT114549113"
+    ]
+  },
+  "Constraints": {
+    "Any": [
+      "{InvoiceDate:date:yyyy-mm-dd}",
+      "{SupplierCode:literal:211454910}",
+      "{_SupplierCode1:literal:211454910}",
+      "{_SupplierCode2:literal:211454910}",
+      "{_SupplierCode3:literal:211454910}",
+      "{_SupplierCode4:literal:211454910}",
+      "{SupplierTaxId:literal:LT114549113}",
+      "{_SupplierTaxId1:literal:LT114549113}",
+      "{_SupplierTaxId2:literal:LT114549113}",
+      "{_SupplierTaxId3:literal:LT114549113}",
+      "{_SupplierTaxId4:literal:LT114549113}",
+      "{_SupplierTaxId4:literal:LT114549113}",
+      "{_SupplierTaxId5:literal:LT114549113}"
+    ],
+    "Prefix": [
+      "IŠ VISO, EUR {InvoiceTotal:decimal:}",
+      "IŠ VISO PVM, EUR {InvoiceTax:decimal:}",
+      "PVM suma {VatTariff:decimal:}",
+      "95 Miles {InvoiceTotalQty:decimal:}",
+      "Serija ir Nr {InvoiceNumber:regex:\\d{3,}}",
+      "REFNR {OrderNumber:regex:\\d{10,}}",
+      "Ats. sąsk. EUR {_IBAN:literal:LT652140030000160661}",
+      "Pradinis likutis {InvoiceDate:date:yyyy-mm-dd}",
+      "Galutinis likutis {InvoiceDueDate:date:yyyy-mm-dd}",
+      "Suma be PVM 21%, EUR {InvoiceSubtotal:decimal:}",
+      " {CustomerTaxId:string:2}"
+    ],
+    "vPrefix": [
+      "be PVM {InvoiceSubtotal:decimal:}",
+      "Pardavėjas {_SupplierName:literal:CircleKLietuva,UAB}",
+      "Korespondencijos adresas {CustomerName:string:2}",
+      "su PVM {InvoiceTotal:decimal:}"
+    ],
+    "InLine": [
+      "Įmonės/PVM kodas {CustomerCode:regex:\\d{8,}} {CustomerTaxId:regex:LT\\d{4,}}}"
+    ],
+    "SubLine": [],
+    "EntireLine": [],
+    "UpDown": [],
+    "AnyX": [
+      "{CustomerCode:literal:211454910}",
+      "{CustomerTaxId:literal:LT114549113}"
+    ]
+  },
+  "Hints": [
+    "ForceMatchPages"
+  ],
+  "TextTables": [
+    {
+      "Name": "LineItems",
+      "Header": [
+        "Prekes pavadinimas",
+        "Mato vnt",
+        "Kiekis",
+        "Vieneto kaina be PVM Eur",
+        "Suma be PVM Eur",
+        "PVM tarifac",
+        "PVM suma",
+        "Suma su PVM"
+      ],
+      "Cells": [
+        "{Description:text:}",
+        "{UOM:text:}",
+        "{Qty:decimal:}",
+        "{UnitPriceExTax:decimal:}",
+        "{Subtotal:decimal:}",
+        "{TaxPercent:decimal:}",
+        "{Tax:decimal:}",
+        "{Total:decimal:}"
+      ]
+    }
+  ],
+  "Info": {
+    "InstanceId": "193"
+  },
+  "MatchCondition": {
+    "type": "extractsAll",
+    "value": [
+      "_SupplierName",
+      "_IBAN"
+    ]
+  }
+}
