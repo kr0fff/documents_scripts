@@ -1,0 +1,9 @@
+ --[[ ExpandTotal --]] if fields.InvoiceTotal and not fields.InvoiceSubtotal and not fields.InvoiceTax and not fields.VatTariff then
+        fields.InvoiceSubtotal = fields.InvoiceTotal
+        fields.InvoiceTax = 0
+        fields.VatTariff = 0
+    elseif fields.InvoiceSubtotal and not fields.InvoiceTotal and not fields.InvoiceTax and not fields.VatTariff then
+        fields.InvoiceTotal = fields.InvoiceSubtotal
+        fields.InvoiceTax = 0
+        fields.VatTariff = 0
+    end --[[ ExpandTotal --]]
