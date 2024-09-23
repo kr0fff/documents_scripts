@@ -1,8 +1,38 @@
 function Finalize(fields, tables, ctx)
+    if fields.ETA then
+        fields.ATA = fields.ETA
+    end
+    if fields.CountryOrigin then
+        local placeReceipt, country = fields.CountryOrigin.Text:match('([A-Z%s%d%p]+)%s*%,%s*([A-Z%s%d%p]+)')
+        fields.PlaceOfReceipt = placeReceipt or nil
+        fields.CountryOrigin = country or nil
+    end
+    if fields.CountrySource then
+        local placeDelivery, country = fields.CountrySource.Text:match('([A-Z%s%d%p]+)%s*%,%s*([A-Z%s%d%p]+)')
+        fields.FinalDestination = placeDelivery or nil
+        fields.CountrySource = country or nil
+    end
     if tables.LineItems then
         local items = tables.LineItems
+        items:AppendColumn('Type')
+        for i = 0, items.Length - 1 do
+            local incoterms = not items[i].Total.Value and not items[i].Description.Value and items[i].UnitPrice.Text:match('^[A-Z][A-Z][A-Z]')
+            local lostDescription = items[i].Description.Value and not items[i].Total.Value and items[i].Description.Text or nil
+            if lostDescription and items[i].Total.Value then
+                items[i].Description = items[i].Description.Value and lostDescription .. ' ' .. items[i].Description.Text or nil
+            end
+            if incoterms then
+                fields.Incoterms = incoterms
+            end
+            items[i].UnitPrice = items[i].UnitPrice.Value and CastToDecimal(items[i].UnitPrice.Text, ctx) or nil
+            items[i].Type = 'Goods'
+        end
         NormaliseLineItems(tables, items, ctx)
     end
+end
+function CastToDecimal(str, ctx)
+    local decimal = str:gsub('[%s%,]+', ''):match('[%d%.]+')
+    return decimal and ctx:CreateDecimal(decimal) or nil
 end
 function NormaliseLineItems(tables, table, ctx)
     local items = ctx:CreateTable()
